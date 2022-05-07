@@ -42,7 +42,10 @@ const firebaseConfig = {
 
   export const db = getFirestore();
 
-  export const createUserDocumentFromAuth = async (userAuth) => {
+  export const createUserDocumentFromAuth = async (
+    userAuth, 
+    additionalInformation = {displayName: 'mike'}
+  ) => {
     if(!userAuth) return;
     const userDocRef = doc(db, 'users', userAuth.uid);
 
@@ -53,13 +56,14 @@ const firebaseConfig = {
         const createdAt = new Date();
 
         try {
-            await setDoc(userDocRef, {
-                displayName,
-                email,
-                createdAt
-            });
+          await setDoc(userDocRef, {
+            displayName,
+            email,
+            createdAt,
+            ...additionalInformation,
+          });
         } catch (error) {
-            console.log('error creating the user', error.message);
+          console.log('error creating the user', error.message);
         }
     }
 
