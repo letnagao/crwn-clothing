@@ -19,7 +19,6 @@ Clothing shop made using React & firebase with Stripe payments implemented.
     - **redux-logger**: console logging redux data flow <br />
     - **redux**: state management <br />
     - **redux-thunk**: handling asynchronous events <br />
-    - <del><strong>redux-saga</strong></del>: handling asynchronous events keeping actions pure <br />
     - **axios**: implement api requests with ease <br />
     - **reselect**: reusing redux selectors in a performant way <br />
     - **redux-persist**: storing data in local storage <br />
@@ -32,7 +31,7 @@ Clothing shop made using React & firebase with Stripe payments implemented.
 
 ```bash
 #1. clone this project
-~ git clone https://github.com/oussamabouchikhi/crwn-clothing.git
+~ git clone https://github.com/letnagao/crwn-clothing.git
 #2. cd into it
 ~ cd crwn-clothing
 #3. install serevr dependencies
