@@ -14,13 +14,15 @@ import {
 import { getFirestore, doc, getDoc, setDoc } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCPGB_6pibSEezfPyiE9wY-Yhnm6CSDLwg",
-  authDomain: "crwn-clothing-2837e.firebaseapp.com",
-  projectId: "crwn-clothing-2837e",
-  storageBucket: "crwn-clothing-2837e.appspot.com",
-  messagingSenderId: "690794302318",
-  appId: "1:690794302318:web:df8dd37f3428676072cf7f"
+  apiKey: "AIzaSyDNp3Rb37bMigS3VnpaaHV8ZJI3dj6ybTc",
+  authDomain: "website-ecommerce-clothing.firebaseapp.com",
+  projectId: "website-ecommerce-clothing",
+  storageBucket: "website-ecommerce-clothing.appspot.com",
+  messagingSenderId: "290801288767",
+  appId: "1:290801288767:web:fd1b7e26b222f9adc19a8a",
+  measurementId: "G-5BSNRD9VYY"
 };
+
 
 const firebaseApp = initializeApp(firebaseConfig);
 
