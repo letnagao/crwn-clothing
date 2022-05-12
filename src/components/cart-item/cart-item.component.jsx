@@ -13,7 +13,7 @@ const CartItem = ({ cartItem }) => {
                 </span>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default CartItem;
