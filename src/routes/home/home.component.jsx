@@ -36,8 +36,7 @@ const Home = () => {
       <Directory categories={categories} />
       <Outlet />
     </div>
-    );
+  );
 };
 
 export default Home;
-
