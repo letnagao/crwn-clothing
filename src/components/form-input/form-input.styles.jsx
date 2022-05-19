@@ -1,3 +1,31 @@
+import style, { css } from 'styled-components';
+
+const subColor = 'grey';
+const mainColor = 'black';
+
+const shrinkLabelStyles = css`
+  top: -14px;
+  font-size: 12px;
+  color: ${mainColor};
+`
+
+const FormInputLabel = styled.label`
+  color: subColor;
+  font-size: 16px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: 300ms ease all;
+  ${({shrink}) => shrink && shrinkLabelStyles}
+
+  &.shrink {
+    @include shrinkLabel();
+  }
+`
+
+
 $sub-color: grey;
 $main-color: black;
 
