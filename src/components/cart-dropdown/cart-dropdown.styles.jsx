@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import {
   BaseButton,
   GoogleSignInButton,
-  InvertedButton
+  InvertedButton,
 } from '../button/button.styles';
 
 export const CartDropdownContainer = styled.div`
@@ -18,7 +18,6 @@ export const CartDropdownContainer = styled.div`
   top: 90px;
   right: 40px;
   z-index: 5;
-
   ${BaseButton},
   ${GoogleSignInButton},
   ${InvertedButton} {

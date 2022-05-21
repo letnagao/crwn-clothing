@@ -1,9 +1,9 @@
 import { useNavigate } from 'react-router-dom';
 
 import {
-  BackgroundImage, 
-  Body, 
-  DirectoryItemContainer
+  BackgroundImage,
+  Body,
+  DirectoryItemContainer,
 } from './directory-item.styles';
 
 const DirectoryItem = ({ category }) => {
