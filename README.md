@@ -1,6 +1,14 @@
 ## CRWN Clothing 🎯
 Clothing shop made using React & firebase with Stripe payments implemented.
 
+![Language count](https://img.shields.io/github/languages/count/letnagao/crwn-clothing?color=green)
+![Top language](https://img.shields.io/github/languages/top/letnagao/crwn-clothing?color=ff69b4)
+![Repo size](https://img.shields.io/github/repo-size/letnagao/crwn-clothing?color=yellow)
+![Commit Activity](https://img.shields.io/github/commit-activity/y/letnagao/crwn-clothing?color=blue)
+![Latest commit](https://img.shields.io/github/last-commit/letnagao/crwn-clothing?color=red)
+[![GitHub watchers](https://img.shields.io/github/watchers/letnagao/crwn-clothing?logo=GitHub)](https://github.com/letnagao/crwn-clothing/watchers)
+![Maintained](https://img.shields.io/maintenance/yes/9999)
+
 ## Features 🔥
 ✔️ Authentication with Google account <br />
 ✔️ Authentication with email & password <br />
